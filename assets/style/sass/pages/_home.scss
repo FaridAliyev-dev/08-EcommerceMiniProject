@@ -1,0 +1,138 @@
+.main-container {
+  width: 100%;
+  background-color: #f2f0f1;
+}
+
+.main-pic img {
+  display: flex;
+  justify-content: center;
+}
+
+.main-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-text {
+  padding-top: 103px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.main-text h1 {
+  font-size: 64px;
+  font-weight: 1000;
+}
+
+.main-text p {
+  font-size: 15px;
+  color: #00000099;
+}
+
+.shop-button {
+  width: 210px;
+  height: 52px;
+  border-radius: 62px;
+  background: black;
+  color: white;
+  border: 1px solid black;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+.shop-button:hover {
+  background-color: #3d3d3d;
+  cursor: pointer;
+}
+
+.mainNumbers p {
+  font-size: 40px;
+  color: black;
+  font-weight: 500;
+  padding: 0 32px;
+}
+
+.mainNumbers {
+  display: flex;
+  flex-direction: row;
+  margin-left: -32px;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.brands-container {
+  background-color: black;
+  height: 122px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  // gap: 30px;
+}
+
+.brands {
+  display: flex;
+  gap: 106px;
+}
+
+
+
+
+@media (max-width: 900px) {
+  .main-text h1 {
+    font-size: 36px;
+  }
+
+  .main-text p {
+    font-size: 14px;
+    flex-wrap: wrap;
+    max-width: 358px;
+    line-height: 20px;
+  }
+
+  .mainNumbers {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 900px) {
+  .mainNumbers {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align items */
+    margin-left: 0; /* Adjust margin */
+    gap: 20px; /* Add spacing between items */
+  }
+
+  .mainNumbers p {
+    font-size: 32px; /* Adjust font size for smaller screens */
+    padding: 0; /* Remove padding for better fit */
+    text-align: center; /* Center text for better readability */
+  }
+
+  .number p:nth-child(2) {
+    font-size: 12px; /* Adjust subtitle size */
+  }
+
+  .main-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+
+  }
+
+
+  }

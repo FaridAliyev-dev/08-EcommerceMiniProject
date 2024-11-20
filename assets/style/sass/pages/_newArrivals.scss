@@ -1,0 +1,97 @@
+.productsTitle {
+  @include header;
+  @include flexBox;
+  margin-top: 72px;
+  margin-bottom: 52px;
+}
+
+.card img {
+  height: 295px;
+  width: 295px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+
+.cardName {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+
+.cardRating {
+  color: #ffc633;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+
+.cardPrice {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+  max-width: calc(25% - 20px);
+}
+
+.productButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 64px;
+}
+
+.productButton {
+  width: 218px;
+  height: 52px;
+  border-radius: 62px;
+  margin-top: 36px;
+  padding: 10px 20px;
+  border: 1px solid #0000001a;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+.product2 {
+      border-top: 1px solid #0000001A;
+}
+
+
+
+.pricing {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+}
+
+
+.pricingDiscount {
+      background-color: #FF33331A;
+      padding: 6px 13.5px;
+      border-radius: 62px;
+      font-size: 12px;
+      color: #FF3333;
+}
