@@ -480,6 +480,47 @@ table {
   font-size: 19px;
 }
 
+.newsletter {
+  margin-top: 80.42px;
+  height: 180px;
+  border-radius: 20px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  padding: 0 64px;
+  justify-content: space-between;
+}
+
+.newsletterTitle {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57.7px;
+  color: black;
+  color: white;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.newsletterMail {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.newsletterMail input,
+button {
+  height: 48px;
+  width: 349px;
+  border-radius: 62px;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.newsletterMail input {
+  position: relative;
+  text-indent: 15px;
+}
+
 html * {
   font-family: "Poppins";
 }
